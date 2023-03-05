@@ -38,7 +38,7 @@ const Works = () => {
         itemLayout="vertical"
         size="large"
         dataSource={history?.slice().reverse()}
-        renderItem={(item) => <ImageGeneratedItem item={item ?? null} />}
+        renderItem={(item: any) => <ImageGeneratedItem item={item} />}
       />
     </WidthContainer>
   );

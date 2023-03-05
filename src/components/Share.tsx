@@ -1,9 +1,4 @@
-import {
-  FacebookOutlined,
-  InstagramOutlined,
-  ShareAltOutlined,
-  TwitterOutlined,
-} from "@ant-design/icons";
+import { ShareAltOutlined } from "@ant-design/icons";
 import React, { FC, useState } from "react";
 import {
   FacebookShareButton,

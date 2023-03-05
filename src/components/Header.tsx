@@ -2,14 +2,12 @@ import React, { useContext, useState } from "react";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
 import { UserContext } from "../App";
-import { storage } from "../helpers/localStorage";
 import { useClose } from "../hooks/useClose";
 import { size } from "../ui/AdaptiveSize";
 import ChangeLanguage from "./ChangeLanguage";
 import GoogleAuthButton from "./GoogleAuthButton";
 import MenuOpening from "./MenuOpening";
-import Wallet from "./Wallet";
-
+import Wallet from './Wallet'
 const FixedHeader = styled.header`
   position: relative;
   height: 70px;

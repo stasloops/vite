@@ -2,7 +2,6 @@ import { Menu } from "antd";
 import React, { FC, useContext, useEffect, useState } from "react";
 import {
   ApiOutlined,
-  DesktopOutlined,
   ExperimentOutlined,
   FileImageOutlined,
   GifOutlined,

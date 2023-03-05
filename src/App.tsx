@@ -40,7 +40,6 @@ function App() {
           <Route path="/control" element={<Gradio />} />
           <Route path="/billing" element={<Billing />} />
           <Route path="/faq" element={<FAQ />} />
-          
         </Routes>
       </UserContext.Provider>
     </div>

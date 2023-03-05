@@ -2,7 +2,6 @@ import { GlobalOutlined } from "@ant-design/icons";
 import React, { useState } from "react";
 import { useTranslation } from "react-i18next";
 import styled from "styled-components";
-import { storage } from "../helpers/localStorage";
 import { useClose } from "../hooks/useClose";
 import { size } from "../ui/AdaptiveSize";
 

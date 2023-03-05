@@ -136,7 +136,7 @@ const ContentGenerator = () => {
           </span>
           <Select
             onClick={placeholderIsActiveFalse}
-            contentEditable={false}
+            // contentEditable={false}
             defaultValue="generate"
             style={{ width: 120, marginLeft: "10px" }}
             onChange={setType}
@@ -147,7 +147,7 @@ const ContentGenerator = () => {
           />
           <Select
             onClick={placeholderIsActiveFalse}
-            contentEditable={false}
+            // contentEditable={false}
             defaultValue="image"
             style={{ width: 120, marginLeft: "10px" }}
             onChange={setContent}

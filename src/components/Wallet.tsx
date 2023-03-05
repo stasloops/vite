@@ -4,7 +4,7 @@ import Web3 from "web3";
 
 const Wallet = () => {
   let selectedAccount;
-  let provider = window.ethereum;
+  let provider:any = '';
 
   const connect = async () => {
     if (typeof provider !== "undefined") {
